@@ -33,7 +33,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Since I selected to use a UITableView for the default percentage selection, it was challenging to just keep one row selected. I had originally use the didSelectRow and didDeselectRow delegates; however, when the loading of the user defaults were implemented, the delegates were not called when setting the selectedRow. I had to clear the accessory view for each cell then just set it prior to loading. 
 
 ## License
 
