@@ -31,6 +31,8 @@ class TipViewController: UIViewController {
                 self.tipControl.selectedSegmentIndex = path.row
             }
         }
+        
+        self.billField.becomeFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
